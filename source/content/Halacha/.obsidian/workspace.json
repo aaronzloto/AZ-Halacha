@@ -26,12 +26,15 @@
             "id": "27b1ecb56038c337",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.4"
+                "file": "יורה_דעה/בשר_בחלב.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "בשר_בחלב"
             }
           },
           {
@@ -206,10 +209,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27b1ecb56038c337",
+  "active": "2afefbfe89714702",
   "lastOpenFiles": [
     "Concepts/תתאה גבר.md",
-    "יורה דעה/בשר בחלב.md",
+    "יורה_דעה/בשר_בחלב.md",
     "Concepts/בישול - Cooking.md",
     "[.md",
     "[[.md",
@@ -220,7 +223,7 @@
     "[Cooking^8df37a].md",
     "[בישול.md",
     "Concepts",
-    "יורה דעה",
+    "יורה_דעה",
     "Welcome.md",
     "יורה דעה/בשר בחלב"
   ]
