@@ -8,9 +8,9 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 
   // If baseUrl contains a pathname after the domain, use this as the home link
 
-  const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+  const url = new URL(`https://aaronzloto.github.io/AZ-Halacha ?? "example.com"}`)
 
-  const baseDir = url.pathname + 'AZ-Halacha'
+  const baseDir = url.pathname 
 
 
 
