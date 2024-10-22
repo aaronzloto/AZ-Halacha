@@ -37,8 +37,8 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
 
       const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
       const path = url.pathname as FullSlug
-      const customPath = `https://aaronzloto.github.io/AZ-Halacha` as FullSlug
-      const externalResources = pageResources(customPath, resources)
+     
+      const externalResources = pageResources(path, resources)
       const notFound = i18n(cfg.locale).pages.error.title
       const [tree, vfile] = defaultProcessedContent({
         slug,
