@@ -36,7 +36,7 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
       const slug = "404" as FullSlug
 
       const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`);
-    url.pathname += '/AZ-Halacha'; // Append to pathname
+    url.pathname += 'AZ-Halacha'; // Append to pathname
 
     const path = url.pathname as FullSlug; // Use updated pathname
       const externalResources = pageResources(path, resources)
